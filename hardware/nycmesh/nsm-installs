@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width initial-scale=1">
+	<title>NanoStation installs</title>
+	<meta name="description" content="NanoStation NSM5 installs">
+	<link href="/mesh.ico" rel="shortcut icon" type="image/x-icon">
+	<link href="/apple-touch-icon-180x180.png" sizes="180x180" />
+	<link href="/icon-hires.png" rel="icon" sizes=192x192 />
+	<link rel="stylesheet" href="/css/main.css">
+	<link rel="canonical" href="http://nycmeshnet.github.io/blog/nsm5-install/">
+	<link rel="alternate" type="application/atom+xml" title="NYC Mesh" href="http://nycmeshnet.github.io/feed.xml" />
+</head>
+
+<body class="blog">
+  <div id="banner">
+	<img src="/assets/images/banner.jpg" alt="Heat map" width="1500" height="500">
+</div>
+<nav>
+  <a href="/" class="logo">
+    <img src="/assets/images/logo.png">
+    NYC Mesh
+  </a>
+  <div class="mainnav">
+    
+    <a href="/map">Map</a>
+    <a href="/blog">Blog</a>
+    <a href="/faq">FAQ</a>
+    <a href="/join">Join</a>
+    <a href="/donate">Donate</a>
+	<div></div>
+</a>
+  </div>
+
+  <div class="title-container">
+    <div class="title">
+  
+    <div class="tags">
+      
+    </div>
+
+    <h1>NanoStation installs</h1>
+    <p class="sig">
+    <!-- <img src="http://nycmeshnet.github.io/images/" alt=" photo">  -->
+    
+      
+      <img src="http://nycmeshnet.github.io/assets/images/team/bhny.jpg" alt="Brian photo">by Brian, April 10, 2016
+    
+    </p>
+  
+</div>
+
+  </div>
+</nav>
+
+  <div class="content">
+  <p>NanoStation NSM5 installs</p>
+
+<p><strong>Hardware</strong></p>
+
+<p>The simplest install is to use an existing vertical pipe and the two plastic ties that are included with the router. Also a thick PVC pipe can be attached to a railing using clamps.</p>
+
+<p><img src="/assets/images/nsm5/roof-87.jpg" alt="roof install" /></p>
+
+<p>If you need to aim the router up or down you can use a <a href="https://www.streakwave.com/itemdesc.asp?ic=NBU001">nanobracket</a>.</p>
+
+<p><img src="/assets/images/nsm5/nanobracket.jpg" alt="nanobracket" /></p>
+
+<p>The <a href="http://www.amazon.com/Ubiquiti-Networks-NanoStation-Window-Mount/dp/B004EHUR8U">Ubiquiti window/wall mount</a> is a versatile mount that comes with a suction cup for windows or a screw mount for walls. The parts are reversible so the NSM5 can face either way and it also has vertical and horizontal adjustment to point in almost any direction.</p>
+
+<p><img src="/assets/images/nsm5/ubiquiti-window-wall-mount.jpg" alt="window/wall install" /></p>
+
+<p>The <a href="http://www.amazon.com/gp/product/B006J1WSGI/">Ubiquiti universal antenna mount</a> can be used on rooftops or walls, where a very strong mount is needed.</p>
+
+<p><img src="/assets/images/nsm5/ubiquiti-universal-mount.jpg" alt="universal antenna mount" /></p>
+
+<p><strong>Window</strong></p>
+
+<p>Outside:<br />
+On the outside of the window it is best to use a Ubiquiti wall/window mount. The suction cup is not recommended for long-term installs.</p>
+
+<p><img src="/assets/images/nsm5/window-cup-outside.jpg" alt="window outside" /></p>
+
+<p>Inside:<br />
+It is often more convenient to install inside the window. You will lose about 2db of signal but that is usually ok.</p>
+
+<p>Velcro is the easiest way to install a NanoStation if it will be facing the same direction as the window. Use more velcro than in the picture (this install slipped down the window after six months!)</p>
+
+<p><img src="/assets/images/nsm5/velcro.jpg" alt="velcro" /><img src="/assets/images/nsm5/window-velcro-off.jpg" alt="velcro" /></p>
+
+<p><img src="/assets/images/nsm5/window-velcro-on.jpg" alt="window velcro" /></p>
+
+<p>A Ubiquiti suction cup mount can be used if you need to point the router at an angle. The suction cup will fail eventually (usually on very hot or very cold days), so do not use this for long-term installs.</p>
+
+<p><img src="/assets/images/nsm5/window-cup-inside.jpg" alt="window/wall install" /></p>
+
+<p><strong>Rooftop</strong></p>
+
+<p>Often rooftops have an existing unused pipe or abandoned antenna pole that can be used.</p>
+
+<p><img src="/assets/images/nsm5/pipe.jpg" alt="pipe" /></p>
+
+<p>A Ubiquiti bracket is good if you have a drillable surface such as brick or cement.</p>
+
+<p><img src="/assets/images/nsm5/bracket-200.jpg" alt="bracket" /></p>
+
+<p><strong>Wall</strong></p>
+
+<p>A simple wall mount can be made using a small, thin piece of wood and the two plastic ties that come with the router. This will not give you much choice in direction.</p>
+
+<p><img src="/assets/images/nsm5/wall.jpg" alt="window/wall install" />
+<a href="https://www.telcoantennas.com.au/site/how-extend-wifi-coverage-using-ubiquiti-nanostation">source</a></p>
+
+<p><img src="/assets/images/nsm5/wall-201.jpg" alt="window/wall install" /></p>
+
+<p>The Ubiquiti window/wall mount comes with both a suction cup for windows and a screw mount for walls. Use this screw mount on a wall so you can point the router in the best direction.</p>
+
+<p><img src="/assets/images/nsm5/windowwall2.jpg" alt="window/wall install" /><img src="/assets/images/nsm5/windowwall.jpg" alt="window/wall install" /></p>
+
+<p><strong>Tree</strong></p>
+
+<p>Sometimes a tree is the best place for your NanoStation.</p>
+
+<p><img src="/assets/images/nsm5/tree.jpg" alt="tree" /></p>
+
+<p><strong>Ethernet</strong></p>
+
+<p>Outdoor routers use “power over ethernet” (POE). A small adapter is used to add power to the ethernet. This means you only need to run one ethernet cable to the device.</p>
+
+<p>The most important thing about the cable and is that it is “outdoor” cable. Otherwise the plastic will decay in the weather. We use Cat 5e. A cable run must be less than 100m (300 feet), or the signal and voltage drop will be too much.</p>
+
+<p>There are two ethernet ports on the NanoStation and these are a source of confusion. Like most outdoor routers they get their power over the ethernet cable. They come with an adapter that adds 24V of power to the cable. Be careful plugging live cables into ports that are not expecting a voltage.</p>
+
+<p>Here are two ways to wire your NSM5:</p>
+
+<p><strong>Setup 1 (client)</strong></p>
+
+<p>You are connecting to a remote gateway that is providing your internet. You plug the ethernet cable into the “main” (LAN) port of the NSM5. The cable goes to the power adapter POE. “LAN” on the POE adapter goes to the WAN of an indoor router.</p>
+
+<p>(Sometimes people are close enough to the NSM5 that they don’t bother with the indoor router.)</p>
+
+<p><strong>Setup 2 (gateway)</strong></p>
+
+<p>You are sharing your existing internet with your neighbors. You plug the ethernet into the “secondary” (WAN) port of the NSM5. The cable goes to the power adapter POE. “LAN” on the POE adapter goes to the LAN of your existing indoor router.</p>
+
+<p><strong>Powering two from one adapter</strong></p>
+
+<p>If you need to install two NanoStations you can simply run a cable from the spare ethernet port to the other NSM5. If the POE is plugged into the secondary port (gateway setup) then the “main” will act as passthrough to the second NSM5.</p>
+
+<p>To turn on passthrough from main to secondary you need to do this <a href="https://wiki.openwrt.org/toh/ubiquiti/nanostationm5">(source)</a>-</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># older nanostation XM (pre-2015)
+echo 8 &gt; /sys/class/gpio/export
+echo out &gt; /sys/class/gpio/gpio8/direction
+echo 1 &gt; /sys/class/gpio/gpio8/value
+# disable with echo 0 &gt; /sys/class/gpio/gpio8/value
+</code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># nanostation XW (2015-)
+echo 2 &gt; /sys/class/gpio/export
+echo out &gt; /sys/class/gpio/gpio2/direction
+echo 1 &gt; /sys/class/gpio/gpio2/value
+# disable with echo 0 &gt; /sys/class/gpio/gpio2/value
+</code></pre></div></div>
+
+<p>I’ve found this setting doesn’t stick after reboot, so you need to add it to /etc/rc.local (local startup)-<br />
+<a href="http://admin.qmp/cgi-bin/luci/admin/system/startup">http://admin.qmp/cgi-bin/luci/admin/system/startup</a></p>
+
+<p><strong>LAN vs WAN confusion</strong></p>
+
+<p>On the NSM5 the <strong>“main” port is LAN</strong> and the <strong>secondary is “WAN”</strong>. This is the most confusing thing about the router and mixing this up is the cause of most problems. <strong>Always connect WAN on one router to LAN on another!</strong></p>
+
+<p>If you connect LAN to LAN it will be unstable as each LAN port usually has a DHCP server and both ports will be trying to assign an IP address to the other. Also don’t connect WAN to WAN as this makes no sense. This is by far the biggest problem with people setting up routers and it is so simple to avoid.</p>
+
+
+   
+  <footer class="footer">
+	<img src="../../assets/images/isoc-logo.png" align="right" style="width:180px;height:60px;"/>
+	This project was made possible in part through a donation from the Internet Society.<br><br>
+	<br><br>
+
+    <a href="https://www.youtube.com/channel/UC3FH_8A4SDtJbo5UWMhBteA?sub_confirmation=1"><img src="../../assets/images/social/youtube.gif" alt="YouTube" style="width:32px;height:32px;border:0;"></a>
+
+<a href="https://www.instagram.com/nycmesh/"><img src="../../assets/images/social/instagram.png" alt="Instagram" style="width:32px;height:32px;border:0;"></a>
+
+<a href="https://www.facebook.com/nycmesh"><img src="../../assets/images/social/facebook.gif" alt="Facebook" style="width:32px;height:32px;border:0;"></a>
+
+<a href="https://twitter.com/nycmesh?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-screen-name="false" data-show-count="false">Follow @nycmesh</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+  <div class="mainnav">
+    
+    <a href="/">Home</a>
+    <a href="/map">Map</a>
+    <a href="/blog">Blog</a>
+    <a href="/faq">FAQ</a>
+    <a href="/join">Join</a>
+    <a href="/donate">Donate</a>
+	<div></div>
+</a>
+  </div>
+
+</footer>
+</div>
+  <script src="/assets/javascript/modernizr.js"></script>
+<script src="/assets/javascript/jquery-1.11.0.min.js"></script>
+<script src="/assets/javascript/bootstrap.js"></script>
+<script src="/assets/javascript/scripts.js"></script>
+<script src="/assets/javascript/map.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-56517898-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>

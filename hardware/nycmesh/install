@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width initial-scale=1">
+	<title>Install info</title>
+	<meta name="description" content="a better network">
+	<link href="/mesh.ico" rel="shortcut icon" type="image/x-icon">
+	<link href="/apple-touch-icon-180x180.png" sizes="180x180" />
+	<link href="/icon-hires.png" rel="icon" sizes=192x192 />
+	<link rel="stylesheet" href="/css/main.css">
+	<link rel="canonical" href="http://nycmeshnet.github.io/install/">
+	<link rel="alternate" type="application/atom+xml" title="NYC Mesh" href="http://nycmeshnet.github.io/feed.xml" />
+</head>
+
+<body>
+  <div id="smallbanner">
+	<img src="/assets/images/banner.jpg" alt="banner" width="1500" height="500">
+</div>
+<nav>
+  <a href="/" class="logo">
+    <img src="/assets/images/logo.png">
+    NYC Mesh
+  </a>
+  <div class="mainnav">
+    
+    <a href="/map">Map</a>
+    <a href="/blog">Blog</a>
+    <a href="/faq">FAQ</a>
+    <a href="/join">Join</a>
+    <a href="/donate">Donate</a>
+	<div></div>
+</a>
+  </div>
+
+  <div class="title-container">
+    <div class="title">
+  
+    <div class="tags">
+      
+    </div>
+
+    <h1>Install info</h1>
+    <p class="sig">
+    <!-- <img src="http://nycmeshnet.github.io/images/" alt=" photo">  -->
+    
+    </p>
+  
+</div>
+
+  </div>
+</nav>
+
+  <div class="content">
+	
+	<!--move the title up from default 30%-->
+	<style>
+		.title {
+		    margin-top: 10%;
+		}
+	</style>
+	
+  <p>We have a few different types of install. At the moment we are mostly doing installs in downtown Manhattan that connect directly to the supernode1, or in the Bushwick area near supernode2. This is a “supernode client install”.</p>
+
+<p>With all rooftop installs, an antenna is mounted on the roof and outdoor ethernet cable goes down a wall or conduit and into your apartment. We usually put the cable through a window frame or at the side of an air-conditioner. A small power adapter in your apartment will give power the antenna over the ethernet cable. Another router is needed in the apartment for your wifi connection.</p>
+
+<p>You can pay us $110 to cover hardware (basically cost) and $50 labor paid to the installer. It is <em>much</em> easier, faster and often cheaper for you if we do the install. We have the right hardware and you don’t get charged if we are unable to connect you. Email us if you would prefer a monthly plan rather than upfront payment for the install.</p>
+
+<p><strong>For DIY installs- please connect your neighbors too!</strong><br />
+<strong>If you DIY you are obliged by our <a href="/ncl.pdf">NCL license</a> to extend the network</strong> <br />
+We can help you with configuring the ethernet switches etc</p>
+
+<p><strong>1) Supernode client</strong></p>
+
+<p>You need to be within about two miles of a supernode, and <a href="/panorama/227.png">inside this downtown area</a> or this <a href="/panorama/570a.jpg">Brooklyn area</a>. We can usually tell by a panorama pic whether this install will work for you.</p>
+
+<p><strong><em>Equipment needed</em></strong>-</p>
+
+<p>We supply the LiteBeamAC, antenna mount (if needed), outdoor ethernet cable, ethernet switch (if needed) and indoor router.</p>
+
+<p>The total for the equipment is <a href="https://nycmesh.net/pay/">$110</a>, and the install is $50 (paid to an independent installer).</p>
+
+<p>$160 per apartment is due on the day of the install. We also suggest a monthly subscription of $20 to help us maintain our network.</p>
+
+<p>It is possible to do this yourself. Ask us for help configuring the LiteBeamAC. If you are installing in a window we suggest the smaller NanoBeamAC. If you DIY please consider also connecting your neighbors. This is the whole point of the mesh.</p>
+
+<p><strong>2) Kiosk client install</strong></p>
+
+<p>This is similar to supernode client but uses a router aimed at a LinkNYC kiosk on the avenue below.</p>
+
+<p>We supply the SXTsq, antenna mount (if needed), ethernet, ethernet switch (if needed) and indoor router.</p>
+
+<p>The total for the equipment is <a href="https://nycmesh.net/pay/">$110</a>, and the install is $50 (paid to an independent installer).</p>
+
+<p>$160 per apartment is due on the day of the install. We also suggest a monthly subscription of $20 to help us maintain our network.</p>
+
+<p>If you want to try this yourself read this <a href="/blog/public-access-points">blog post</a>.</p>
+
+<p><strong>3) Building to building</strong></p>
+
+<p>This is similar to supernode client but uses NanoStation M5 connected to a nearby established neighborhood network. We supply the NanoStation NSM5, antenna mount (if needed), ethernet, ethernet switch (if needed) and indoor router.</p>
+
+<p>$160 per apartment is due on the day of the install. We also suggest a monthly subscription of $20 to help us maintain our network.</p>
+
+<p>For DIY NanoStation installs <a href="/download">download our firmware</a> and read our <a href="/blog/nsm5-install">install instructions</a>.</p>
+
+<p><strong>4) Point to point</strong></p>
+
+<p>Email us directly for details on a point to point connection. This can be as fast as a gigabit, but requires dedicated hardware. We can also wire the entire building with ethernet to provide all residents with a connection. Hardware can be as little as $130 for two LiteBeams or $3000 for a pair of gigabit AirFiber.</p>
+
+
+  <footer class="footer">
+	<img src="../../assets/images/isoc-logo.png" align="right" style="width:180px;height:60px;"/>
+	This project was made possible in part through a donation from the Internet Society.<br><br>
+	<br><br>
+
+    <a href="https://www.youtube.com/channel/UC3FH_8A4SDtJbo5UWMhBteA?sub_confirmation=1"><img src="../../assets/images/social/youtube.gif" alt="YouTube" style="width:32px;height:32px;border:0;"></a>
+
+<a href="https://www.instagram.com/nycmesh/"><img src="../../assets/images/social/instagram.png" alt="Instagram" style="width:32px;height:32px;border:0;"></a>
+
+<a href="https://www.facebook.com/nycmesh"><img src="../../assets/images/social/facebook.gif" alt="Facebook" style="width:32px;height:32px;border:0;"></a>
+
+<a href="https://twitter.com/nycmesh?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-screen-name="false" data-show-count="false">Follow @nycmesh</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+  <div class="mainnav">
+    
+    <a href="/">Home</a>
+    <a href="/map">Map</a>
+    <a href="/blog">Blog</a>
+    <a href="/faq">FAQ</a>
+    <a href="/join">Join</a>
+    <a href="/donate">Donate</a>
+	<div></div>
+</a>
+  </div>
+
+</footer>
+</div>
+  <script src="/assets/javascript/modernizr.js"></script>
+<script src="/assets/javascript/jquery-1.11.0.min.js"></script>
+<script src="/assets/javascript/bootstrap.js"></script>
+<script src="/assets/javascript/scripts.js"></script>
+<script src="/assets/javascript/map.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-56517898-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>

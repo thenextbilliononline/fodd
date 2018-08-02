@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width initial-scale=1">
+	<title>Frequently asked questions</title>
+	<meta name="description" content="a better network">
+	<link href="/mesh.ico" rel="shortcut icon" type="image/x-icon">
+	<link href="/apple-touch-icon-180x180.png" sizes="180x180" />
+	<link href="/icon-hires.png" rel="icon" sizes=192x192 />
+	<link rel="stylesheet" href="/css/main.css">
+	<link rel="canonical" href="http://nycmeshnet.github.io/faq/">
+	<link rel="alternate" type="application/atom+xml" title="NYC Mesh" href="http://nycmeshnet.github.io/feed.xml" />
+</head>
+
+<body>
+  <div id="smallbanner">
+	<img src="/assets/images/banner.jpg" alt="banner" width="1500" height="500">
+</div>
+<nav>
+  <a href="/" class="logo">
+    <img src="/assets/images/logo.png">
+    NYC Mesh
+  </a>
+  <div class="mainnav">
+    
+    <a href="/map">Map</a>
+    <a href="/blog">Blog</a>
+    <a href="/faq">FAQ</a>
+    <a href="/join">Join</a>
+    <a href="/donate">Donate</a>
+	<div></div>
+</a>
+  </div>
+
+  <div class="title-container">
+    <div class="title">
+  
+    <div class="tags">
+      
+    </div>
+
+    <h1>Frequently asked questions</h1>
+    <p class="sig">
+    <!-- <img src="http://nycmeshnet.github.io/images/" alt=" photo">  -->
+    
+    </p>
+  
+</div>
+
+  </div>
+</nav>
+
+  <div class="content">
+	
+	<!--move the title up from default 30%-->
+	<style>
+		.title {
+		    margin-top: 10%;
+		}
+	</style>
+	
+  <p><a href="#why">Why are you building a community-owned network?</a><br />
+<a href="#fee">Is there a monthly fee?</a> <br />
+<a href="#business">What is your business plan?</a> <br />
+<a href="#replace-isp">Is this a replacement for my current internet connection?</a> <br />
+<a href="#mesh-services">What can I do on the mesh that I can’t do on the internet?</a> <br />
+<a href="#why-join">Why should I join the mesh now?</a> <br />
+<a href="#coverage">Can the mesh cover the whole country?</a> <br />
+<a href="#isp">Are you an internet Service Provider (ISP)?</a> <br />
+<a href="#node">What is a node?</a><br />
+<a href="#router">What is the difference between a router and an antenna?</a><br />
+<a href="#firmware">What software/firmware do you use?</a> <br />
+<a href="#other-router">Can I use my own different router?</a> <br />
+<a href="#no-view">Can I install a router if I have no view or rooftop access?</a> <br />
+<a href="#install">What is involved in a rooftop or window install?</a> <br />
+<a href="#nsm5-indoor">I want a NanoStation but I’m not ready for a rooftop install?</a> <br />
+<a href="#window">I can see another node from my window. Can I put a router there?</a> <br />
+<a href="#mobile">Why don’t we mesh mobile phones instead of routers?</a> <br />
+<a href="#secure">Is the mesh secure?</a> <br />
+<a href="#data">What is your user data policy?</a><br />
+<a href="#blockchain">Blockchain?</a><br />
+<a href="#obvious">Why aren’t you doing this obvious thing I just thought of?</a></p>
+
+<h2 id="why-are-you-building-a-community-owned-network"><a name="why"></a>Why are you building a community-owned network?</h2>
+
+<p>This is our most common question, so we made it into a blog post- <a href="/blog/twelve-reasons-for-mesh/">12 Reasons for mesh</a></p>
+
+<h2 id="what-is-your-business-plan"><a name="business"></a>What is your business plan?</h2>
+
+<p>We are not a business and we are not an ISP! We don’t have “customers” or “users”, we have members. Being a member of our network has many benefits including replacing your current ISP with real, unmonitored internet access. Businesses are free to join or connect to the mesh as long as they obey the <a href="../ncl.pdf">network commons license</a>.</p>
+
+<h2 id="is-there-a-monthly-fee"><a name="fee"></a>Is there a monthly fee?</h2>
+
+<p>Once you buy a router and install it you are part of NYC Mesh. There is no compulsory fee. Donations help us cover maintenance. By joining the mesh you are obliged to share and extend the mesh in the same way that it was shared with you.</p>
+
+<p>If you are benefitting from the network, or you would like to help us extend the network, please pay a small <a href="/donate">monthly donation.</a> If you cannot afford this, we understand!</p>
+
+<p>We also do installs for entire buildings and set up high-bandwidth point-to-point connections with dedicated hardware. If your building would like this dedicated service please <a href="mailto:install@nycmesh.net">email us</a> or call us on (646) 727-0866. Using this service can replace your current ISP for very large buildings.</p>
+
+<h2 id="is-this-a-replacement-for-my-current-internet-connection"><a name="replace-isp"></a>Is this a replacement for my current internet connection?</h2>
+
+<p>We are connected to the internet through peering at an internet exchange point. If you have line-of-sight to supernode1 in downtown Manhattan, or supernode2 in Brooklyn you can have a fast, reliable connection with suitable hardware, and replace your ISP.</p>
+
+<p>Many members who cannot connect directly to our supernode are sharing their internet. If you have line-of-sight to another member or they are very close by you can ask if it is OK to share internet. We encourage people to share or make deals with their neighbors. If you are within range of the mesh, your router will automatically use the fastest internet connection.</p>
+
+<h2 id="what-can-i-do-on-the-mesh-that-i-cant-do-on-the-internet"><a name="mesh-services"></a>What can I do on the mesh that I can’t do on the internet?</h2>
+
+<p>It is possible to connect directly to other people on the mesh without using the internet. If for some reason the internet is shut down by a fascist dictator, the mesh will still work. Internet shutdowns are becoming increasingly common in the world.</p>
+
+<p>The mesh has small web servers that show local information and allow you to chat and post messages. So far we have servers in five locations- Harlem, Bay Ridge, 3rd St. and 7th St. in the East Village, and our main directory “wiki.mesh” in Williamsburg. We are in need of volunteers to help add content and maintain our servers.</p>
+
+<h2 id="why-should-i-join-the-mesh-now"><a name="why-join"></a>Why should I join the mesh now?</h2>
+
+<p>By joining the mesh you help us grow and increase our reach across the city. This is a community project and you will be helping to create a decentralized infrastructure, free from traditional business interests.</p>
+
+<p>You can also help your neighborhood by providing access points for local parks, cafes and bars. Local businesses are often keen to host a node once you explain the benefits to them.</p>
+
+<h2 id="is-it-possible-for-the-mesh-to-cover-the-whole-country"><a name="coverage"></a>Is it possible for the mesh to cover the whole country?</h2>
+
+<p>Yes, there is a mesh network called “Guifi” in Spain that covers a large part of the country. In order to do this, they have a backbone of many long distance WiFi connections and also community owned fiber.</p>
+
+<h2 id="are-you-an-internet-service-provider-isp"><a name="isp"></a>Are you an Internet Service Provider (ISP)?</h2>
+
+<p>No, we are not an ISP, we are a community that shares ownership of a network. Collectively we have our own internet connection at our “supernode”. Also some of our members share their own internet connections.</p>
+
+<p>Our network peers with other networks at an internet exchange point and provides access to the internet without traditional ISPs. We are a non-profit project of the New York chapter of the Internet Society (ISOC-NY).</p>
+
+<h2 id="what-is-a-node"><a name="node"></a>What is a node?</h2>
+
+<p>A node is a location with one or more routers or antennas, i.e. it is usually a dot on our map. Some dots have multiple apartments with installs in the same building so that would be one node per apartment. A supernode will have multiple radios, routers, antennas and maybe a server too.</p>
+
+<h2 id="what-is-the-difference-between-a-router-and-an-antenna"><a name="router"></a>What is the difference between a router and an antenna?</h2>
+
+<p>Most of the devices we use, such as a LiteBeam or NanoStation are self-contained so they have an antenna, radio and ethernet router all in one. “Wireless router with antenna” is too long so we usually call the whole thing a router, just like your home wifi “router”. Sector antennas usually have a separate radio plugged into the back of them so we call those antennas (although some sectors are self-contained).</p>
+
+<p>Ubiquiti call their self-contained AirFiber a “radio”, and others call an AirFiber a router or an antenna, so yes everyone is confused about what term to use.</p>
+
+<h2 id="what-softwarefirmware-do-you-use"><a name="firmware"></a>What software/firmware do you use?</h2>
+
+<p>We are using an OpenWrt package made by qMp. This uses the BMX6 mesh protocol. We have added tinc tunneling so a router can mesh over the internet when out of range using a secure virtual private network (VPN).</p>
+
+<p>Our point-to-point connections use factory firmware such as AirOS. The supernode is running Linux with Quagga and BGP. For network monitoring we use Nagios and Icinga2.</p>
+
+<p>We also have some members experimenting with and contributing to cjdns/hyperboria software. Let us know if you are interested in this.</p>
+
+<h2 id="can-i-use-my-own-different-router"><a name="other-router"></a>Can I use my own different router?</h2>
+
+<p>No, the router we currently support and recommend for building-to-building is the Ubiquiti NanoStation M5. We might be updating that soon. For supernode connections you will need a LiteBeamAC or NanoBeamAC router. Our <a href="../download">download page</a> has our firmware for the NanoStation and links to buy. We are working on supporting other routers.</p>
+
+<p>TP-Link have locked down some of their routers, and others are not supported well by OpenWrt, so we unfortunately are looking at other options for indoor routers at the moment.</p>
+
+<h2 id="can-i-install-a-router-if-i-have-no-view-or-no-rooftop-access"><a name="no-view"></a>Can I install a router if I have no view or no rooftop access?</h2>
+
+<p>Yes you can. Because you may be out of range of other mesh nodes, your router will use secure VPN tunneling to connect to the mesh over the internet. You will still see the exclusive mesh web content. Neighbors could also install routers creating a mesh for your building.</p>
+
+<h2 id="what-is-involved-in-a-rooftop-or-window-install"><a name="install"></a>What is involved in a rooftop or window install?</h2>
+
+<p>Rooftop installs are mostly to connect you to a supernode or a second hop from a supernode. Look at our <a href="../map">map</a> to find line-of-sight to another node location less than two miles away. You can also talk to people in the neighborhood and convince them to also install a node. We also have a collection of rooftop panoramas where you can check for possible line-of-sight connections.</p>
+
+<p>The other type of install is where a directional Ubiquiti router is aimed at a nearby public space (park, cafe, bar etc.) as a public Wi-Fi access point. We currently have five public spaces with this type of install.</p>
+
+<p>We support one outdoor router, the Ubiquiti Nanostation NSM5 (~$90). We have links for this on the <a href="../download">download page</a></p>
+
+<p>We can help you with the rooftop installation. Typically one or two routers are attached to a pole on the roof and an ethernet cable is run to the apartment, and connected to the TP-Link mesh router and an internet gateway. The install cost is usually $160 including labor and equipment. The ethernet cable also supplies the power to the router using “power over ethernet”. If the roof (or balcony or window) is close to your apartment you might not need an additional mesh router.</p>
+
+<h2 id="i-want-a-nanostation-but-im-not-ready-for-a-rooftop-install"><a name="nsm5-indoor"></a>I want a NanoStation but I’m not ready for a rooftop install</h2>
+
+<p>It is easy to use the NanoStation indoors. It is 5GHz router, and all modern phones and most laptops support that. It looks a little strange but has a very good signal. If you have a long apartment or thick walls, a NanoStation is ideal.</p>
+
+<h2 id="i-can-see-another-node-from-my-window-can-i-put-a-router-there"><a name="window"></a>I can see another node from my window. Can I put a router there?</h2>
+
+<p>Yes! You can use a directional NanoStation in your window. It will work from behind glass if you are unable to place it outside the window. The simplest install is to velcro the flat surface of the NanoStation NSM5 to the window. We have a <a href="../blog/nsm5-install/">blog post about NSM5 installs.</a></p>
+
+<h2 id="why-dont-we-mesh-mobile-phones-instead-of-routers"><a name="mobile"></a>Why don’t we mesh mobile phones instead of routers?</h2>
+
+<p>There is “mesh” software for mobile phones such as Serval and FireChat. This is mainly used for chat messages. It stores the messages until a phone is within range and then transfers the data. Mobile “mesh” networks are very low bandwidth, not real-time and require many phones in a small area. They are great for events or some emergency situations.</p>
+
+<h2 id="is-the-mesh-secure"><a name="secure"></a>Is the mesh secure?</h2>
+
+<p>If you use the internet while on the mesh, you should use standard precautions such as using https (lock icon) web sites for secure connections, or use a VPN service.</p>
+
+<p>By default, our mesh router is firewalled from your local network. It is not possible to reach beyond the mesh router to your LAN. Mesh tunneling over the internet is by tinc VPN and is secure. Network traffic within the mesh is not encrypted by default.</p>
+
+<h2 id="what-is-your-user-data-policy"><a name="data"></a>What is your user data policy?</h2>
+
+<p>NYC Mesh does not collect, store, monitor, or log any user traffic or content that passes through our network.</p>
+
+<p>NYC Mesh may periodically look at traffic headers for troubleshooting purposes as traffic passes through the NYC Mesh network, however, this data is never logged or stored. NYC Mesh may collect aggregate statistics on links to monitor traffic flow to ensure a successful network.</p>
+
+<p>Beyond the scope of NYC Mesh, the NYC Mesh network is unencrypted, open, and depends on donated internet from individuals and other companies which is outside the control of NYC Mesh, therefore NYC Mesh is unable to detect or prevent traffic monitored at those points.</p>
+
+<p>NYC Mesh will comply with all federal laws in the countries it operates, however, as policy, no data is collected and therefore no data exists to provide requestors.</p>
+
+<h2 id="blockchain"><a name="blockchain"></a>Blockchain?</h2>
+
+<p>We are not interested in your blockchain idea. Please read <a href="/blog/meshcoin">Meshcoin</a>.</p>
+
+<h2 id="why-arent-you-doing-this-obvious-thing-i-just-thought-of"><a name="obvious"></a>Why aren’t you doing this obvious thing I just thought of?</h2>
+
+<p>We have a lot on our to-do list and everyone is a volunteer. Please <a href="mailto:contact@nycmesh.net">email us</a> with suggestions, or better still volunteer to help us. <a href="https://slack.nycmesh.net/">Join our slack.com group</a> where we do our planning. We need help with everything such as publicity, emailing, printing leaflets, writing FAQs, and installing routers on rooftops.</p>
+
+
+  <footer class="footer">
+	<img src="../../assets/images/isoc-logo.png" align="right" style="width:180px;height:60px;"/>
+	This project was made possible in part through a donation from the Internet Society.<br><br>
+	<br><br>
+
+    <a href="https://www.youtube.com/channel/UC3FH_8A4SDtJbo5UWMhBteA?sub_confirmation=1"><img src="../../assets/images/social/youtube.gif" alt="YouTube" style="width:32px;height:32px;border:0;"></a>
+
+<a href="https://www.instagram.com/nycmesh/"><img src="../../assets/images/social/instagram.png" alt="Instagram" style="width:32px;height:32px;border:0;"></a>
+
+<a href="https://www.facebook.com/nycmesh"><img src="../../assets/images/social/facebook.gif" alt="Facebook" style="width:32px;height:32px;border:0;"></a>
+
+<a href="https://twitter.com/nycmesh?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-screen-name="false" data-show-count="false">Follow @nycmesh</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+  <div class="mainnav">
+    
+    <a href="/">Home</a>
+    <a href="/map">Map</a>
+    <a href="/blog">Blog</a>
+    <a href="/faq">FAQ</a>
+    <a href="/join">Join</a>
+    <a href="/donate">Donate</a>
+	<div></div>
+</a>
+  </div>
+
+</footer>
+</div>
+  <script src="/assets/javascript/modernizr.js"></script>
+<script src="/assets/javascript/jquery-1.11.0.min.js"></script>
+<script src="/assets/javascript/bootstrap.js"></script>
+<script src="/assets/javascript/scripts.js"></script>
+<script src="/assets/javascript/map.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-56517898-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width initial-scale=1">
+	<title>Splash Screen</title>
+	<meta name="description" content="The Splash Screen">
+	<link href="/mesh.ico" rel="shortcut icon" type="image/x-icon">
+	<link href="/apple-touch-icon-180x180.png" sizes="180x180" />
+	<link href="/icon-hires.png" rel="icon" sizes=192x192 />
+	<link rel="stylesheet" href="/css/main.css">
+	<link rel="canonical" href="http://nycmeshnet.github.io/blog/splash-screen/">
+	<link rel="alternate" type="application/atom+xml" title="NYC Mesh" href="http://nycmeshnet.github.io/feed.xml" />
+</head>
+
+<body class="blog">
+  <div id="banner">
+	<img src="/assets/images/banner.jpg" alt="Heat map" width="1500" height="500">
+</div>
+<nav>
+  <a href="/" class="logo">
+    <img src="/assets/images/logo.png">
+    NYC Mesh
+  </a>
+  <div class="mainnav">
+    
+    <a href="/map">Map</a>
+    <a href="/blog">Blog</a>
+    <a href="/faq">FAQ</a>
+    <a href="/join">Join</a>
+    <a href="/donate">Donate</a>
+	<div></div>
+</a>
+  </div>
+
+  <div class="title-container">
+    <div class="title">
+  
+    <div class="tags">
+      
+    </div>
+
+    <h1>Splash Screen</h1>
+    <p class="sig">
+    <!-- <img src="http://nycmeshnet.github.io/images/" alt=" photo">  -->
+    
+      
+      <img src="http://nycmeshnet.github.io/assets/images/team/bhny.jpg" alt="Brian photo">by Brian, January 27, 2017
+    
+    </p>
+  
+</div>
+
+  </div>
+</nav>
+
+  <div class="content">
+  <p><strong>The Splash Screen</strong></p>
+
+<p>Our default install includes a “captive portal” splash page. It requires one click and, if it opens in a browser, it will take you to our website. Most phones now open the splash in the notification area. If you click there it just disappears.</p>
+
+<p>If you are using the router at home the splash can get annoying. It will also stop devices like Chromecast or Alexa from connecting. You can disable it for a list of devices or disable it completely if needed. It is good promotion for the network to have the splash. Many people have joined the mesh after seeing the splash page.</p>
+
+<p>To disable it for certain devices, first, you need to find the MAC address of your devices that you want to allow. Then you need to ssh in (ask us for name/pwd) and-</p>
+
+<p><code class="highlighter-rouge">vi /etc/config/nodogsplash</code></p>
+
+<p>At the end of the file add a line with a list of your MAC addresses (replacing examples)-</p>
+
+<p><code class="highlighter-rouge">list trustedmac 'aa:bb:cc:dd:ee:ff, 11:22:33:44:55:66, '</code></p>
+
+<p>The default config file lives here-
+<a href="https://github.com/openwrt-routing/packages/blob/master/nodogsplash/files/nodogsplash.config">https://github.com/openwrt-routing/packages/tree/master/nodogsplash/</a></p>
+
+<p>To completely stop the splash-</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rm /etc/hotplug.d/iface/95-nodog 
+/etc/init.d/nodogsplash stop
+/etc/init.d/nodogsplash disable
+</code></pre></div></div>
+
+<p><a href="mailto:brian@nycmesh.net">Email me</a> if you have any comments or suggestions.</p>
+
+
+   
+  <footer class="footer">
+	<img src="../../assets/images/isoc-logo.png" align="right" style="width:180px;height:60px;"/>
+	This project was made possible in part through a donation from the Internet Society.<br><br>
+	<br><br>
+
+    <a href="https://www.youtube.com/channel/UC3FH_8A4SDtJbo5UWMhBteA?sub_confirmation=1"><img src="../../assets/images/social/youtube.gif" alt="YouTube" style="width:32px;height:32px;border:0;"></a>
+
+<a href="https://www.instagram.com/nycmesh/"><img src="../../assets/images/social/instagram.png" alt="Instagram" style="width:32px;height:32px;border:0;"></a>
+
+<a href="https://www.facebook.com/nycmesh"><img src="../../assets/images/social/facebook.gif" alt="Facebook" style="width:32px;height:32px;border:0;"></a>
+
+<a href="https://twitter.com/nycmesh?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-screen-name="false" data-show-count="false">Follow @nycmesh</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+  <div class="mainnav">
+    
+    <a href="/">Home</a>
+    <a href="/map">Map</a>
+    <a href="/blog">Blog</a>
+    <a href="/faq">FAQ</a>
+    <a href="/join">Join</a>
+    <a href="/donate">Donate</a>
+	<div></div>
+</a>
+  </div>
+
+</footer>
+</div>
+  <script src="/assets/javascript/modernizr.js"></script>
+<script src="/assets/javascript/jquery-1.11.0.min.js"></script>
+<script src="/assets/javascript/bootstrap.js"></script>
+<script src="/assets/javascript/scripts.js"></script>
+<script src="/assets/javascript/map.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-56517898-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>

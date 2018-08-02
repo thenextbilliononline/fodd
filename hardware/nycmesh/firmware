@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width initial-scale=1">
+	<title>Order, Download and Flash</title>
+	<meta name="description" content="a better network">
+	<link href="/mesh.ico" rel="shortcut icon" type="image/x-icon">
+	<link href="/apple-touch-icon-180x180.png" sizes="180x180" />
+	<link href="/icon-hires.png" rel="icon" sizes=192x192 />
+	<link rel="stylesheet" href="/css/main.css">
+	<link rel="canonical" href="http://nycmeshnet.github.io/download/">
+	<link rel="alternate" type="application/atom+xml" title="NYC Mesh" href="http://nycmeshnet.github.io/feed.xml" />
+</head>
+
+<body class="blog">
+  <div id="banner">
+	<img src="/assets/images/banner.jpg" alt="Heat map" width="1500" height="500">
+</div>
+<nav>
+  <a href="/" class="logo">
+    <img src="/assets/images/logo.png">
+    NYC Mesh
+  </a>
+  <div class="mainnav">
+    
+    <a href="/map">Map</a>
+    <a href="/blog">Blog</a>
+    <a href="/faq">FAQ</a>
+    <a href="/join">Join</a>
+    <a href="/donate">Donate</a>
+	<div></div>
+</a>
+  </div>
+
+  <div class="title-container">
+    <div class="title">
+  
+    <div class="tags">
+      
+    </div>
+
+    <h1>Order, Download and Flash</h1>
+    <p class="sig">
+    <!-- <img src="http://nycmeshnet.github.io/images/" alt=" photo">  -->
+    
+    </p>
+  
+</div>
+
+  </div>
+</nav>
+
+  <div class="content">
+  <p>Please read our <a href="../faq">FAQ</a> if you haven’t already.</p>
+
+<p><strong>Join the mesh</strong><br />
+First you need to enter a <a href="../join">new node request</a>. This will add your router to our list of node requests and put your location on our map. If you have multiple locations enter them separately. If you are within range of a supernode and have line-of-sight you may be able to connect directly. Otherwise we will try to connect you to a nearby rooftop.</p>
+
+<p>To connect to the supernode, please <a href="mailto:install@nycmesh.net">contact us</a> and we will advise. This usually uses a LiteBeamAC or NanoBeamAC. Configuration info is <a href="/cpe">here</a>.</p>
+
+<p>To setup a rooftop to rooftop connection you can use two NanoStation M5s. You can also just set up a public access point and aim it towards the street. It is best to figure out exactly what kind of connection you are making before proceeding. Chat with us first to make sure.</p>
+
+<p><strong>Order a router</strong></p>
+
+<ul>
+  <li>Ubiquiti NSM5 directional 5GHz (~$90 including tax)</li>
+</ul>
+
+<p><strong>For Supernode connections you need a different router (usually LiteBeamAC)</strong></p>
+
+<p>Buy on Amazon: <br />
+<a href="http://www.amazon.com/dp/B0049AVWAO/?tag=nsm5-nycmesh-20">Ubiquiti NanoStation NSM5</a></p>
+
+<p>Buy at B&amp;H: (free delivery) <br />
+<a href="http://www.bhphotovideo.com/c/product/1049768-REG/">Ubiquiti NanoStation NSM5</a></p>
+
+<p><strong>Download the firmware and flash your router</strong></p>
+
+<p><strong>NanoStation NSM5 instructions</strong></p>
+
+<p>If you want to connect to a public access point, such as a Link NYC kiosk, there is no need to flash the router. Just follow <a href="../blog/public-access-points/">these instructions</a>.</p>
+
+<p>(for old NSM5s or if you are upgrading see below)</p>
+
+<p>FOLLOW ALL THE STEPS OR YOU MAY PERMANENTLY BRICK THE ROUTER!</p>
+
+<p>Firstly you need to get your NSM5 back to AirOS 5.5.</p>
+
+<ul>
+  <li>If your new NSM5 is running 6.x you need to first downgrade to <a href="https://www.ubnt.com/downloads/XN-fw-internal/v6.0.6/XW.v6.0.6-beta.30875.170526.0023.bin">v6.0.6 beta</a> before downgrading again to 5.5</li>
+  <li>For a new NSM5, download this file to your computer- <a href="http://dl.ubnt.com/firmwares/XW-fw/v5.5.10/XW.v5.5.10-u2.28005.150723.1358.bin">AirOS5.5 download</a> <strong>You MUST downgrade from AirOS 5.6 to 5.5</strong></li>
+  <li>Plug an ethernet cable from POE on the power adapter to “main” on the NSM5 (we will switch to “secondary” later)</li>
+  <li>Plug from LAN on the adapter to your computer (You may need a USB ethernet adapter)</li>
+  <li>Turn off Wi-Fi on your computer</li>
+  <li>Open Network Prefs (or equivalent)</li>
+  <li>Connect by ethernet using a manual address e.g. 192.168.1.11 with mask 255.255.255.0</li>
+  <li>Go to <a href="http://192.168.1.20">192.168.1.20</a> in your browser</li>
+  <li>You will get https warning “your connection is not private” or some such</li>
+  <li>Click “advanced” and “proceed to 192.168.1.20”</li>
+  <li>Enter ubnt, ubnt, USA, [x] agree to terms, login</li>
+  <li>On the tabbed panel select “System”</li>
+  <li>Click “Upload Firmware: Choose File”</li>
+  <li>Select the AirOS file</li>
+  <li>Click “Upload”</li>
+  <li>There are two loading screens here, and if you don’t go through both, you will irreparably break the router.</li>
+  <li>Wait until it reboots</li>
+  <li>Make sure you are now running 5.5.10 and NOT 5.6.x or 6.x. Double check. Triple check. If not, you’ll permanently break the router.</li>
+  <li>Download our firmware- <a href="http://nycmeshnet.github.io/download/NSM5-XW.html">NSM5 XW download</a></li>
+  <li>Go to <a href="http://192.168.1.20">192.168.1.20</a>, login and select “System” again</li>
+  <li>Click “Upload Firmware: Choose File”</li>
+  <li>Select the M5-XW factory image you downloaded</li>
+  <li>Click “Upload”</li>
+  <li>You will get a “third-party” warning. Ignore this and click “Update”</li>
+</ul>
+
+<p>Wait ten minutes or so. It now has a SSID name like “-NYC Mesh- 1a2b” and a random IP of the form 10.x.x.x</p>
+
+<ul>
+  <li>
+    <p>Plug an ethernet cable from LAN on your current router to LAN on the power supply, and from POE to the <strong>secondary</strong> input on the NanoStation.</p>
+  </li>
+  <li>
+    <p><a href="mailto:newnode@nycmesh.net">Email us</a> and we will check that everything is working and add you to the mesh. You must do this as we manually configure the tinc tunneling for each newly flashed router.</p>
+  </li>
+</ul>
+
+<p><strong>You must also install a watchdog script to keep the network stable</strong>. <a href="/blog/watchdog">Here are the instructions</a>. <a href="mailto:newnode@nycmesh.net">Email us</a> if you are not comfortable doing this. This script will be included in the next version of our firmware.</p>
+
+<p>Now your router is flashed, read how to <a href="../blog/nsm5-install/">install a NanoStation</a></p>
+
+<p><strong>Upgrades</strong><br />
+Upgrades are for when your router is already running nycmesh/qMp or another version of OpenWrt.</p>
+
+<p><a href="http://nycmeshnet.github.io/download/WR842N-upgrade.html">WR842N upgrade download</a><br />
+<a href="http://nycmeshnet.github.io/download/WDR3600-upgrade.html">WDR3600 upgrade download</a><br />
+<a href="http://nycmeshnet.github.io/download/NSM5-XW-upgrade.html">NSM5-XW upgrade download</a></p>
+
+<p><strong>Older (2014 or earlier) XM NSM5s</strong><br />
+<a href="http://nycmeshnet.github.io/download/NSM5-XM.html">NSM5-XM download</a><br />
+<a href="http://nycmeshnet.github.io/download/NSM5-XM-upgrade.html">NSM5-XM upgrade download</a></p>
+
+<p><strong>Firmware</strong><br />
+<a href="https://github.com/nycmeshnet">Our firmware</a> is based on <a href="http://qmp.cat/">qMp</a>, which is an <a href="https://openwrt.org/">OpenWrt</a> package using <a href="http://bmx6.net/projects/bmx6">BMX6</a> meshing protocol. Thanks to Roger at qMp for all of his help.</p>
+
+<p><strong>Am I on the mesh?</strong></p>
+
+<p>After you successfully flash your router and you have <a href="mailto:newnode@nycmesh.net">emailed us</a>, and we have added your tinc tunneling key, you should be on the mesh. If you re-flash your router (not usually necessary) you will have to email us again so we can add your new tinc tunneling key. Emailing us also lets us know who’s router was just flashed.</p>
+
+<p>A quick test to see if you are on the mesh is to go here-
+<a href="http://10.100.4.10/">http://10.100.4.10/</a></p>
+
+<p>This URL should resolve after an hour or so of being online-<br />
+<a href="http://wiki.mesh/">http://wiki.mesh/</a></p>
+
+<p>Here are our old TP-Link instructions in case you find an old TL-WR842N on ebay-</p>
+
+<p><strong>TP-Link instructions</strong></p>
+
+<ul>
+  <li>Click to download the firmware to your computer-<br />
+<a href="http://nycmeshnet.github.io/download/WR842N.html">TL-WR842N  download</a>
+(For upgrades see above)</li>
+  <li>Connect to the router via Wi-Fi. It has a name like “TP-LINK_ABC123”</li>
+  <li>Enter the “wireless password/pin” that is printed on the bottom of the router e.g. “12341234”</li>
+  <li>In your browser, go to 192.168.0.1</li>
+  <li>Enter name: admin, pwd: admin</li>
+  <li>Click System Tools&gt;Firmware upgrade</li>
+  <li>Click “choose file” and select the image you downloaded and click “upgrade”</li>
+</ul>
+
+<p>Wait ten minutes or so and connect to the router via Wi-Fi. It now has a SSID name like “nycmesh 1a2b” and a random IP of the form 10.x.x.x</p>
+
+<ul>
+  <li>
+    <p>Plug an ethernet cable from LAN on your current router to the blue WAN on the TP-Link.</p>
+  </li>
+  <li>
+    <p><a href="mailto:contact@nycmesh.net">Email us</a> and we will check that everything is working.</p>
+  </li>
+</ul>
+
+
+   
+  <footer class="footer">
+	<img src="../../assets/images/isoc-logo.png" align="right" style="width:180px;height:60px;"/>
+	This project was made possible in part through a donation from the Internet Society.<br><br>
+	<br><br>
+
+    <a href="https://www.youtube.com/channel/UC3FH_8A4SDtJbo5UWMhBteA?sub_confirmation=1"><img src="../../assets/images/social/youtube.gif" alt="YouTube" style="width:32px;height:32px;border:0;"></a>
+
+<a href="https://www.instagram.com/nycmesh/"><img src="../../assets/images/social/instagram.png" alt="Instagram" style="width:32px;height:32px;border:0;"></a>
+
+<a href="https://www.facebook.com/nycmesh"><img src="../../assets/images/social/facebook.gif" alt="Facebook" style="width:32px;height:32px;border:0;"></a>
+
+<a href="https://twitter.com/nycmesh?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-screen-name="false" data-show-count="false">Follow @nycmesh</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+  <div class="mainnav">
+    
+    <a href="/">Home</a>
+    <a href="/map">Map</a>
+    <a href="/blog">Blog</a>
+    <a href="/faq">FAQ</a>
+    <a href="/join">Join</a>
+    <a href="/donate">Donate</a>
+	<div></div>
+</a>
+  </div>
+
+</footer>
+</div>
+  <script src="/assets/javascript/modernizr.js"></script>
+<script src="/assets/javascript/jquery-1.11.0.min.js"></script>
+<script src="/assets/javascript/bootstrap.js"></script>
+<script src="/assets/javascript/scripts.js"></script>
+<script src="/assets/javascript/map.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-56517898-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>
