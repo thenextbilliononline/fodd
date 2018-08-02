@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html dir='ltr'>
+<head>
+<meta content='' name='description'>
+<meta content='' name='keywords'>
+<meta content='application/xhtml+xml;charset=utf-8' http-equiv='Content-Type'>
+<meta content='width=device-width, initial-scale=1.0' name='viewport'>
+<meta charset='UTF-8'>
+<meta content='same-origin' name='referrer'>
+<link rel="shortcut icon" href="/theme/riseup/images/favicon.ico" type="image/x-icon" /><link rel="icon" href="/theme/riseup/images/favicon.png" type="image/x-icon" />
+<!-- begin styling -->
+<link rel="stylesheet" media="screen" href="/theme/riseup/screen.css" />
+<link rel="stylesheet" media="screen" href="/static/icon_png-4edd25f4b0ab9ae4a8ecedef7ed84e91907c5d4ea0fc921c551bf7bd5be7d5a1.css" />
+
+<!-- end styling -->
+<!-- begin scripts -->
+<script src="/static/application-843ea6e44d6d3c5023ec3b284e82151a4e511b9bc1986ed19e97f093b5cadbf0.js"></script>
+<!--[if IE]>
+<script src="/static/shims-f0b7f2e354fec7d8cbcdfede5f720ce39a489c069a20c66e51c0f1940e457cf2.js"></script>
+<![endif]-->
+<script type="text/javascript">if(sessionStorage.length > 0) sessionStorage.clear();</script>
+<!-- end scripts -->
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="jFjQ2akHKxLBbuVZcrStZnbe9J/rXgw+LEd8hjH4C/lMapUEIL+Q3Gz4SuMlStOWKWB14QlxKvzJc4nlma1gWg==" />
+<style>
+  
+  #banner_content {background-image: url(/pictures/0000/2676/1200-1200-200-200.png); background-color: #100100100}
+  #banner_content a.title {color: #000; text-shadow: #fff 1px 1px 1px}
+  ul#banner_nav_ul li.tab a.tab {color: #000; background-color: rgba(255,255,255,0.3)}
+</style>
+<title>
+5. Tutorials - Chennai Mesh Network Community - groups - Crabgrass
+</title>
+
+
+
+</head>
+<body class='ltr'>
+<div id='wrap'>
+<div id='masthead'>
+<div class='navbar navbar-default navbar-inverse' id='menu'>
+<div class='navbar-header'>
+<a class='navbar-brand' href='/'></a>
+</div>
+<ul class='nav navbar-nav'>
+<li class=' top-menu' id='menu_me'>
+<a href="/">Me</a>
+
+</li>
+<li class=' top-menu' id='menu_people'>
+<a href="/people/directory">People</a>
+
+</li>
+<li class='active top-menu' id='menu_group'>
+<a href="/groups/directory">Groups</a>
+
+</li>
+</ul>
+<ul class='nav navbar-nav navbar-right'>
+<li class='tab account last'>
+<a class="tab" href="#" onclick="Modalbox.show(&#39;/session/login_form&#39;, {title:&#39;Sign In&#39;, width:&#39;400&#39;}); return false;">Sign In</a>
+</li>
+</ul>
+
+</div>
+
+</div>
+<div class='groups wiki' id='middle'>
+<header id='context_banner'>
+<div id='banner_content'>
+<a class='avatar' href='/chennaimeshnetworkcommunity' style='background-image: url(/avatars/308666/large.jpg?17); width: 68px; height: 68px;'></a>
+<a class="title entity single" style="" title="chennaimeshnetworkcommunity" href="/chennaimeshnetworkcommunity">Chennai Mesh Network Community</a>
+
+<nav id='banner_nav'>
+<ul id='banner_nav_ul'>
+<li class='tab first'>
+<a class=" tab" href="/chennaimeshnetworkcommunity"><span class='text'>Home</span><span class='mobi_icon house_16'></span></a>
+</li>
+<li class='tab '>
+<a class="active tab" href="/groups/chennaimeshnetworkcommunity/pages"><span class='text'>Pages</span><span class='mobi_icon page_white_copy_16'></span></a>
+</li>
+</ul>
+</nav>
+
+</div>
+</header>
+
+<div class='container-fluid' id='middle_container'>
+<div class='on_right sidecolumn' id='local'>
+<div class='col-xs-9' id='column_center'>
+<div class='with_tabs round page' id='title_box'>
+<div class='page_title shy_parent' id='title'>
+<h1>
+5. Tutorials
+</h1>
+<div class='summary'>Collection of Tutorials - linked to other wiki pages &amp; also useful separately</div>
+</div>
+
+<div style='height:1%'>
+<ul class="nav nav-tabs reloadable" data-toggle="buttons-radio">
+<li class="active first"><a class="active wiki_tab wiki_away" id="show_tab_wiki_219947" href="/wikis/219947" data-remote="true" data-method="get">Show</a></li>
+<li></li></ul>
+</div>
+
+</div>
+
+<article class='round-bottom' id='content'>
+<div id='wiki_219947'>
+<div class='wiki'>
+<h1 class="first"><a name="5-1-tutorial-designing-omni-directional-antennas"></a>5.1. Tutorial &#8211; Designing Omni-Directional Antennas<a class="anchor" href="#5-1-tutorial-designing-omni-directional-antennas">&para;</a></h1>&#x000A;<p><strong>Description</strong> : Tutorial on Designing an Omni-Directional Antenna</p>&#x000A;<h1><a name="5-2-tutorial-designing-sectoral-antennas"></a>5.2. Tutorial &#8211; Designing Sectoral Antennas<a class="anchor" href="#5-2-tutorial-designing-sectoral-antennas">&para;</a></h1>&#x000A;<p><strong>Description</strong> : <strong>Description</strong> : Tutorial on Designing a Sectoral Antenna</p>&#x000A;<h1><a name="5-3-tutorial-designing-directional-antennas"></a>5.3. Tutorial &#8211; Designing Directional Antennas<a class="anchor" href="#5-3-tutorial-designing-directional-antennas">&para;</a></h1>&#x000A;<p><strong>Description</strong> : Tutorial on Designing a Directional Antenna. Some of the directional antennas are :Yagi Uda, Log periodic, Helical, Travelling wave tube</p>&#x000A;<h2><a name="uda-yagi-uda-antenna-design"></a>Uda (Yagi-Uda) Antenna Design :<a class="anchor" href="#uda-yagi-uda-antenna-design">&para;</a></h2>&#x000A;<p>Discovered and designed by Uda, popularized by Yagi. Later Yagi &amp; Uda together involved researched this antenna. The paper by Uda and Yagi is considered one of the classical papers in Radio Engineering, and was republished by <span class="caps">IEEE</span> often. Its design idea is so fundamental, that made the design so interesting and easy construction &#8212; such that it is widely used for Amateur Radio, Satellite Communication and TV reception</p>&#x000A;<p><strong>If you want to know any of the things provided here, we can discuss them deeply in physical meetings&#8230;..</strong></p>&#x000A;<p>A finished typical Yagi-Uda antenna for Wifi applications could like one of the following :</p>&#x000A;<p><img src="/assets/295567/Yagi+for+Wifi+ISM+band_large.jpg" alt="" />   <img src="/assets/295612/Yagi+on+Bicycle+Stand_large.jpg" alt="" /></p>&#x000A;<h2><a name="basics"></a>Basics:<a class="anchor" href="#basics">&para;</a></h2>&#x000A;<ul>&#x000A;	<li>It is an End Fire antenna</li>&#x000A;	<li>It is a Travelling Wave antenna</li>&#x000A;</ul>&#x000A;<p><strong>I recommend one to read the following Radio-Electronics content on Yagi-Uda :</strong></p>&#x000A;<ul>&#x000A;	<li><a href="http://www.radio-electronics.com/info/antennas/yagi/yagi.php">Yagi-Uda : In general</a></li>&#x000A;	<li><a href="http://www.radio-electronics.com/info/antennas/yagi/yagi-antenna-theory.php">Yagi-Uda : Theory</a></li>&#x000A;	<li><a href="http://www.radio-electronics.com/info/antennas/yagi/yagi-antenna-gain.php">Yagi-Uda : Gain</a></li>&#x000A;	<li><a href="http://www.radio-electronics.com/info/antennas/yagi/yagi-feed-impedance-matching.php">Yagi-Uda : Impedance Matching</a></li>&#x000A;</ul>&#x000A;<h3><a name="things-to-know-for-understanding-principle-of-oper"></a>Things to know for Understanding Principle of Operation:<a class="anchor" href="#things-to-know-for-understanding-principle-of-oper">&para;</a></h3>&#x000A;<p>Please refer to the <a href="https://we.riseup.net/chennaimeshnetworkcommunity/electromagnetic-waves-antennas">Antenna fundamentals for new comers</a> section. <br />&#x000A;One can also learn themselves about :</p>&#x000A;<ul>&#x000A;	<li>Radiation,</li>&#x000A;	<li>Mutual coupling,</li>&#x000A;	<li>Resonance,</li>&#x000A;	<li>Phase Lagging, Phase Leading,</li>&#x000A;	<li>Constructive and Destructive Interference,</li>&#x000A;	<li>Diffraction,</li>&#x000A;	<li>Polarization</li>&#x000A;</ul>&#x000A;<h2><a name="resources"></a>Resources :<a class="anchor" href="#resources">&para;</a></h2>&#x000A;<p><strong>What are all the design data required for constructing Yagi-Uda Antenna physically ?</strong></p>&#x000A;<ol>&#x000A;	<li>Frequency of Operation <strong>(f)</strong> in Hz&#x000A;	<ul>&#x000A;		<li>Know the Bandwidth &amp; Channels : (<span class="caps">ISM</span> &#8211; Wifi band 2.4GHz)<br />&#x000A;<img src="/assets/295579/2.4GHz+Wi-Fi+channels.png" alt="" /></li>&#x000A;	</ul></li>&#x000A;	<li>Required Gain <strong>(G)</strong> in dB</li>&#x000A;	<li>Diameter <strong>(d)</strong> of Parasitic elements (Directors and Reflectors)</li>&#x000A;	<li>Diameter <strong>(D)</strong> of Supporting beam</li>&#x000A;</ol>&#x000A;<p><strong>Stuff that influences Performance of Yagi-Uda Antenna:</strong></p>&#x000A;<p>1. Reflector &amp; Feeder arrangement<br />&#x000A;2. Feeder itself<br />&#x000A;3. Rows of Directors (A Wave Canal)</p>&#x000A;<p><strong>Things we are going to use for Construction:</strong></p>&#x000A;<p>Upcycling would be the best way to go&#8230;&#8230;&#8230;. :)</p>&#x000A;<ol>&#x000A;	<li>Need Material for Feeder, Reflector, Director&#x000A;	<ul>&#x000A;		<li>One can use Refrigerator condenser tubes and fins (or) 14 Gauge copper wire (or) Conductors from cloth hangers (or) Old measurement tape strip for Elements</li>&#x000A;		<li>One can use Wooden Stick (or) Mob stick&#8217;s tubing/available <span class="caps">PVC</span> tubes (or) Fiber glass (or) Plexi glass for Boom &amp; Mast</li>&#x000A;		<li>One can use cable Ties instead of Clamps</li>&#x000A;	</ul></li>&#x000A;	<li>Need RF cable, RF connectors, Soldering tools</li>&#x000A;	<li>Need Power tools for drilling, cutting</li>&#x000A;</ol>&#x000A;<h2><a name="design-procedure"></a>Design Procedure :<a class="anchor" href="#design-procedure">&para;</a></h2>&#x000A;<p>For Adhoc, fast implementation one can follow AB9IL Ham&#8217;s <a href="https://www.ab9il.net/wlan-projects/wifi6.html">guide</a> (I think its reliable)<br />&#x000A;or, can use :<br />&#x000A;The design procedure in the <a href="https://we.riseup.net/assets/295562/Yagi+Antenna+Design-National+Bureau+of+Standards.pdf">National Bureau of Standards</a> could be followed.</p>&#x000A;<p><strong>A Typical Yagi-Uda design diagram:</strong><br />&#x000A;<img src="/assets/295565/Yagi+Structure_large.png" alt="" /></p>&#x000A;<ol>&#x000A;	<li>Find the Wavelength</li>&#x000A;	<li>Find the Lengths of Parasitic Elements</li>&#x000A;	<li>Find the Spacing between the Reflector and Driving Element</li>&#x000A;	<li>Find the Spacing between the Director Elements</li>&#x000A;	<li>Find the Length of the Overall Structure</li>&#x000A;	<li>Design the Balun for Impedance matching</li>&#x000A;	<li>Adjust for Optimization</li>&#x000A;</ol>&#x000A;<h2><a name="reasons"></a>Reasons<a class="anchor" href="#reasons">&para;</a></h2>&#x000A;<p><strong>Adjustment for Optimization</strong></p>&#x000A;<ol>&#x000A;	<li>Bandwidth coverage can be increased, by lengthening the reflector to improve operation at low frequencies and shortening the directors for higher frequencies, with a sacrifice in Gain.</li>&#x000A;</ol>&#x000A;<p><strong>Coaxial Feed &amp; Impedance Matching</strong><br />&#x000A;When the Radio Unit is connected to the antenna through a Transmission Line like a Coaxial Cable with its own characteristic impedance (in this case 50Ω &#8211; for RG58), the Signal to and fro between the Air Medium &#8211; Antenna &#8211; Transmission Line &#8211; Radio TX/RX must not see any change in impedance as far as possible. This is important because, the performance of the system depends upon the Standing Wave Ratio(<span class="caps">VSWR</span>) influenced by the Reflection Coefficient caused by the impedance mismatch that happens at the connectors, soldering ends, medium interfaces. Practical design must be taken care to construct the system, such that very less reflection &#8211; as small as possible, thus very less <span class="caps">VSWR</span> can be allowed.</p>&#x000A;<p>!/assets/295718/Radio+interfaces_large.png</p>&#x000A;<h2><a name="practical-design"></a>Practical Design :<a class="anchor" href="#practical-design">&para;</a></h2>&#x000A;<p><strong>Given:</strong><br />&#x000A;Frequency:  <strong>ν</strong> = 2.442GHz = 2442 MHz (centre frequency from the above 2.4GHz band channel allocation diagram)<br />&#x000A;Velocity of Electromagnetic Wave: <strong>C</strong> = 2.99792458 m/s<br />&#x000A;Therefore, Wavelength: <strong>λ</strong> = <strong>C/ν</strong> = 12.276 cm<br />&#x000A;Required Gain:  <strong>G</strong> = 16.35dB (at max)</p>&#x000A;<ol>&#x000A;	<li><strong>Elements:</strong><br />&#x000A;<em>Case 1</em>: If Refrigerator Condensor Tubes are used<br />&#x000A;Element diameter(<strong>d</strong>) = 6.40mm = 0.640cm ~ 0.25in (measured with Vernier Caliper) {which is 2a in the above diagram}<br />&#x000A;<strong>d/λ</strong> ratio = 0.052134245<br />&#x000A;<em>Case 2</em>:  If Refrigerator Condenser Fins are used<br />&#x000A;Element diameter(<strong>d</strong>) = 1.66mm = 0.166cm ~ 0.065in (measured with Vernier Caliper)<br />&#x000A;<strong>d/λ</strong> ratio = 0.013522319</li>&#x000A;	<li><strong>Booms:</strong><br />&#x000A;<em>Case 1</em>: If 1inch <span class="caps">PVC</span> Pipe is used<br />&#x000A;Boom diameter(<strong>D</strong>) = 1in = 2.54cm <br />&#x000A;<strong>D/λ</strong> ratio = 0.206907787<br />&#x000A;<em>Case 2</em>: If 1/2inch <span class="caps">PVC</span> Pipe is used<br />&#x000A;Boom diameter(<strong>D</strong>) = 0.5in = 1.27cm<br />&#x000A;<strong>D/λ</strong> ratio = 0.103453893</li>&#x000A;</ol>&#x000A;<p>For a 15 Element Yagi-Uda design : 14 Parasitic elements + 1 Driven element<br />&#x000A;<em>Why 15</em> ? In practice, beyond 15 or 20 elements there is no significant change in Gain, We have document for 15 element design in our hand.</p>&#x000A;<p>From the <a href="https://we.riseup.net/assets/295562/Yagi+Antenna+Design-National+Bureau+of+Standards.pdf">National Bureau of Standards</a> document, 4.2λ is the maximum length of the Antenna</p>&#x000A;<p>Therefore, <strong>Overall Length: L</strong> = 4.2λ = 4.2 &#215; 12.276cm = 51.5592cm = 515.592mm = 20.298in<br />&#x000A;Physical Length: Add +3cm in front &amp; back for mechanical support in Boom = 51.559cm + 6cm = 57.559cm</p>&#x000A;<p>As per the design table in the document,</p>&#x000A;<ol>&#x000A;	<li><strong>Length of Reflector Element:</strong>&#x000A;	<ul>&#x000A;		<li>0.475λ = 5.8311cm = 58.311mm = 2.295in</li>&#x000A;	</ul></li>&#x000A;	<li><strong>Length of Director Element:</strong>&#x000A;	<ol>&#x000A;		<li><strong>D1:</strong> 0.424λ = 5.2050cm = 52.050mm = 2.049in</li>&#x000A;		<li><strong>D2:</strong> 0.424λ = 5.2050cm = 52.050mm = 2.049in</li>&#x000A;		<li><strong>D3:</strong> 0.420λ = 5.1559cm = 51.559mm = 2.029in</li>&#x000A;		<li><strong>D4:</strong> 0.407λ = 4.9963cm = 49.963mm = 1.967in</li>&#x000A;		<li><strong>D5:</strong> 0.403λ = 4.9472cm = 49.472mm = 1.947in</li>&#x000A;		<li><strong>D6:</strong> 0.398λ = 4.8858cm = 48.858mm = 1.923in</li>&#x000A;		<li><strong>D7:</strong> 0.394λ = 4.8367cm = 48.367mm = 1.904in</li>&#x000A;		<li><strong>D8:</strong> 0.390λ = 4.7876cm = 47.876mm = 1.884in</li>&#x000A;		<li><strong>D9:</strong> 0.390λ = 4.7876cm = 47.876mm = 1.884in</li>&#x000A;		<li><strong>D10:</strong> 0.390λ = 4.7876cm = 47.876mm = 1.884in</li>&#x000A;		<li><strong>D11:</strong> 0.390λ = 4.7876cm = 47.876mm = 1.884in</li>&#x000A;		<li><strong>D12:</strong> 0.390λ = 4.7876cm = 47.876mm = 1.884in</li>&#x000A;		<li><strong>D13:</strong> 0.390λ = 4.7876cm = 47.876mm = 1.884in</li>&#x000A;	</ol></li>&#x000A;	<li><strong>Driving Element &#8211; Folded Dipole</strong><br />&#x000A;<em>Why Folded Dipole</em> ? It offers better impedance matching for Transmission Line(50Ω) and Smooth transition towards Air medium. Because of that it achieves Broadband functionality (decreased Q)<br />&#x000A;For a good Upcycled finishing, <a href="http://www.ifwtech.co.uk/g3sek/diy-yagi/dipoles.htm">G3SEK&#8217;s</a> procedure is very reliable and self explanatory.<br />&#x000A;Since it is a Half Wave dipole, the length is 0.46λ = 5.6469cm = 56.468mm = 2.223in</li>&#x000A;	<li><strong>Spacing between the Reflector and Driven Element:</strong>&#x000A;	<ul>&#x000A;		<li><strong>Srd</strong> = 0.25λ = 3.069cm = 30.69mm = 1.208in</li>&#x000A;	</ul></li>&#x000A;	<li><strong>Spacing between the Director Elements:</strong>&#x000A;	<ul>&#x000A;		<li><strong>Sdd</strong> = 0.308λ = 3.7810cm = 37.810mm = 1.488in</li>&#x000A;	</ul></li>&#x000A;</ol>&#x000A;<h2><a name="how-to-match-the-impedance"></a>How to Match the Impedance:<a class="anchor" href="#how-to-match-the-impedance">&para;</a></h2>&#x000A;<p>In otherwords, we need the signal to travel seamlessly, without any sudden change. The Transmission line and Antenna together must act as a smooth bridge between the Radio Unit and the Air medium. The following shows Balun design for a Folded Dipole Driven Element :</p>&#x000A;<p><img src="/assets/295799/Dipole+balun_large.png" alt="" /></p>&#x000A;<p><img src="/assets/295726/Folded+Dipole+Balun+arrangement_large.png" alt="" /></p>&#x000A;<p><img src="/assets/295712/Folded+Dipole+Balun_large.png" alt="" /></p>&#x000A;<p>Please study the Baluning in the Practical <span class="caps">VHF</span>/<span class="caps">UHF</span> design <a href="https://we.riseup.net/assets/295748/Practical+VHF+and+UHF+antennas.pdf">document</a> by G8EZE.<br />&#x000A;However other impedance matching techniques like, Gamma matching or T-matching techniques can be implemented.</p>&#x000A;<h2><a name="how-to-align"></a>How to Align:<a class="anchor" href="#how-to-align">&para;</a></h2>&#x000A;<p><img src="/assets/296796/Boom+Elements+Alighment_large.png" alt="" /></p>&#x000A;<h2><a name="antenna-diagram"></a>Antenna Diagram:<a class="anchor" href="#antenna-diagram">&para;</a></h2>&#x000A;<p>With the above designs, assuming the Case 1 for Element and Case 2 for Boom as available resources, the following antenna diagram is depicted:</p>&#x000A;<p><img src="/assets/295798/Yagi-Uda+Design_large.png" alt="" /></p>&#x000A;<h2><a name="antenna-simulation-results"></a>Antenna Simulation Results:<a class="anchor" href="#antenna-simulation-results">&para;</a></h2>&#x000A;<p>Simulation are done using <em><strong>xnec2ec</strong></em> tool.</p>&#x000A;<p><strong>Structure</strong></p>&#x000A;<p><strong>Radiation Pattern</strong></p>&#x000A;<p><strong>Frequency Plot</strong></p>&#x000A;<p><strong>Front to Back Ratio</strong></p></div>
+
+</div>
+
+<section class='post_list' id='posts'>
+
+<table class='posts round'>
+
+</table>
+
+</section>
+
+
+</article>
+
+</div>
+<div class='col-xs-3' id='column_right'>
+<nav id='sidebar'>
+<div id='page_sidebar'>
+<section id='contributors'>
+<div class='h3'>Groups</div>
+<ul class='names' id='groups'>
+<li>
+<a class=" entity xsmall icon" style=";background-image: url(/avatars/308666/xsmall.jpg?17)" href="/chennaimeshnetworkcommunity"><span class="tiny_wrench_16">Chennai Mesh Network Community</span></a>
+</li>
+</ul>
+<div class='h3'>People</div>
+<ul class='names' id='people'>
+<li>
+<a class=" entity xsmall icon" style=";background-image: url(/avatars/308321/xsmall.jpg?57)" href="/aimgreenviper"><span class="tiny_wrench_16">aimgreenviper</span></a>
+</li>
+</ul>
+</section>
+</div>
+
+</nav>
+
+</div>
+</div>
+
+</div>
+</div>
+<div id='footer'>
+<div class='container-fluid' id='footer_container'>
+<div id='footer_content'>
+<div class='row'>
+<div class='col-xs-center'>
+<form method="post" action="/session/language" style="display: inline"><input name="authenticity_token" type="hidden" value="egjuVQubcILGtstopTDk85J1k6mUQW1PpnXbPxVMu2i6OquIgiPLTGsgZNLyzpoDzcsS13ZuS41DQS5cvRnQyw==" /><select name="id" onchange="this.form.submit();" class="form-control"><option selected="selected" value="en">English</option>
+<option value="ar">العربية</option>
+<option value="bg">български език</option>
+<option value="ca">Català</option>
+<option value="cs">Čeština</option>
+<option value="de">Deutsch</option>
+<option value="el">Ελληνικά</option>
+<option value="es">Español</option>
+<option value="eu">Euskara</option>
+<option value="fr">Français</option>
+<option value="he">עִבְרִית</option>
+<option value="it">Italiano</option>
+<option value="nl">Nederlands</option>
+<option value="no">Norsk</option>
+<option value="pl">Polski</option>
+<option value="pt">Português</option>
+<option value="ru">Pyccĸий</option>
+<option value="sv">Svenska</option>
+<option value="tr">Türkçe</option></select></form>
+</div>
+</div>
+<div class='row'>
+<div class='col-xs-offset-1 col-xs-5'>
+<img src='/theme/riseup/images/riseup.png' style='padding-top: 30px; padding-bottom: 4px'>
+<div style='font-size: 1.1em; line-height: 1.5;'>
+This site is run by <a href="https://riseup.net">riseup.net</a>, your friendly autonomous tech collective since 1999.
+<ul class='styled'>
+<li><a href="https://help.riseup.net/en/donate">Donate to Riseup</a></li>
+<li><a href="https://help.riseup.net/en/about-us">About Us</a></li>
+<li><a href="https://mail.riseup.net/">Email Accounts</a></li>
+<li><a href="https://lists.riseup.net/">Mailing Lists</a></li>
+<li>
+<a href="https://help.riseup.net/en/privacy-policy">Privacy Policy</a>
+/
+<a href="https://help.riseup.net/en/tos">Terms of Service</a>
+</li>
+</ul>
+</div>
+</div>
+<div class='col-xs-5'>
+<img src='/theme/riseup/images/crabgrass.png' style='padding-top: 13px; padding-bottom: 4px'>
+<div style='font-size: 1.1em; line-height: 1.5;'>
+This site is powered by <a href="https://0xacab.org/riseuplabs/crabgrass">crabgrass</a>, <a href="https://www.gnu.org/licenses/agpl-3.0.html"> AGPL software libre</a> for network organizing
+
+
+<ul class='styled'>
+<li><a href="https://0xacab.org/riseuplabs/crabgrass/issues?label_name%5B%5D=bug">Report a Bug</a></li>
+<li><a href="https://0xacab.org/riseuplabs/crabgrass/issues?label_name%5B%5D=Feature+request">Request a Feature</a></li>
+<li><a href="https://we.riseup.net/crabgrass/table-of-contents">Crabgrass Help Pages</a></li>
+<li><a href="https://we.riseup.net/cgdev/get-involved">Get Involved</a></li>
+<li><a href="https://www.transifex.com/projects/p/crabgrass/">Help Translate</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+</div>
+</div>
+</div>
+<div class="alert_message_container"><div id="alert_messages"></div></div>
+</div>
+</body>
+</html>
+
