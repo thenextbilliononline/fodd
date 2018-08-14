@@ -1,0 +1,18 @@
+---
+title: Anticapitalism
+permalink: /Anticapitalism/
+---
+
+Anticapitalism or, the doing without money.
+
+There are a few components which are relevant to this concept, as of yet undefined by the system. Have more of what Anticapitalism means to you? Edit this page.
+
+First, there is a head change involved. Rather than a system that says that you need more, to be awake and free is to know that you have enough, to be happy. Second, In practice, to not use money means to grow a lot of your own food, or get things elsewise for free. This can include a few different methods, all of which valid. Third, there is a transition period. During this time the plants will not be large enough to provide most or all of your subsistence, or even if you don’t have space for plants, you can go to these community meals which are available in every city or town. Every day, people gladly make and serve food to whoever goes in the door. Fourth, transportation. Transportation, is always a thing. While a bike is the best option (manifest a few patches beforehand!), walking often gives a better scenery and appreciation of place. Fifth, land. Superman said to me behind Alameda County: “Join the war, don’t pay rent!” That solves that problem, any questions? Seriously, though, by being houseless and staying on native land, (like a WWOOF), now with folks I don’t pay rent. In the City right now, it's called “freeloading” in someone's apartment or house. This is again a transitionary thing. Finally, the things that you have to find, or do without. Find, trade, barter, manifest, (I don’t often shoplift), grow, re-use, re-cycle, hack, redesign, etc!!!! I only cheat peanut butter and coffee. And there you have it the free life.
+
+Wi-fi: <http://www.instructables.com/id/Easy-to-Build-WIFI-24GHz-Yagi-Antenna/> Electricity alternator: <http://otherpower.com/pmg2.html> or better, <http://www.otherpower.com/woodmill.html> + [The Fifth Element](/The_Fifth_Element "wikilink") could be powered by a bicycle, windmill, water turbine, smoke/steam, coffee, or ideally atmospheric electricity.
+
+Anticapitalism often includes an inherent dislike or protest of the system. If everyone opts out of using money, then that system cannot deal with it. There’s other things that lead it to not be able to deal with itself. Enough are now awake and aware that we need to take action and, watch the downfall of a system inherently unhappy and sick from the experiments consumer society. The capitalist government structure cannot survive the debt or lies of high frequency trading without our consent, itself, nor a resource consumption rate which is just not there any more.
+
+Finally, we have anticapitalist production. This will be upcoming, in order to free the mass of humanity from the productive mandate, allowing the creation of non-competitive and non-capitalist art which serves the purposes of life and liberty. In this form, anti-capitalism becomes a revolutionary form, of how to implement such a system without either ourselves or the looters becoming greedy. We can collectively manifest the future we want to live. Materials manifest, they do. If you can manifest or find access to a tool shop, then you are free. If you buy the tools, then you’re taking back the means of production. If you’re shopping, then get in with the op-delete crowd and don’t pay back your credit card or something.
+
+On a global scale, this translates into an effort for us to evolve past money. If you agree with the following, then we can do it: <http://www.freeworldcharter.org/en/charter>
